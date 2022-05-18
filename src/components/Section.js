@@ -25,6 +25,7 @@ const Section = () => {
 
   const handleCheck = () => {
     setIsCompleted((prevState) => !prevState);
+    
   };
   
 
