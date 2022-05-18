@@ -1,0 +1,43 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch .slider {
+  border-radius: 45px;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+}
+
+.switch .slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  left: 6px;
+  bottom: 7px;
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.switch input:checked + .slider::before {
+  -webkit-transform: translateX(61px);
+          transform: translateX(61px);
+}
+/*# sourceMappingURL=Switch.css.map */

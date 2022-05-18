@@ -35,6 +35,12 @@
   margin-bottom: 21px;
 }
 
+.filter-wrapper span {
+  color: #003479;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
 .filter-wrapper .search-box-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,6 +51,7 @@
   height: 50px;
   width: 275px;
   margin-top: 29px;
+  border: 1px solid #644C79;
 }
 
 .filter-wrapper .search-box-wrap i {
@@ -63,10 +70,22 @@
   text-indent: 10px;
 }
 
-.filter-wrapper .chebox-wrap {
+.filter-wrapper .checkbox-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.filter-wrapper .form-selector {
+  width: 275px;
+  height: 50px;
+  border: 1px solid #003479;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .posts-container {

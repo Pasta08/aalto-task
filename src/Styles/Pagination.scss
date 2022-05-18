@@ -9,10 +9,29 @@
     border-radius: 50%;
     display: grid;
     place-items: center;
+    
     cursor: pointer;
+   .page-btn{
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     display: grid;
+     place-items: center;
+     border:1px solid deepskyblue;
+     color: deepskyblue;
+     cursor: pointer;
+     
+   }
+   .page-btn:disabled{
+     border: 1px solid rgba(0, 191, 255, 0.315);
+     color: rgba(0, 191, 255, 0.315);
+   }
+    
   }
   li.active {
     background-color: #003479;
     color: white;
   }
+  
 }
+

@@ -24,6 +24,11 @@ $primary-text-color: #003479;
     margin-top: 60px;
     margin-bottom: 21px;
   }
+  span{
+    color: $primary-text-color;
+    font-size: 18px;
+    margin-right: 12px;
+  }
   //searchbox styling
   .search-box-wrap {
     display: flex;
@@ -31,6 +36,7 @@ $primary-text-color: #003479;
     height: 50px;
     width: 275px;
     margin-top: 29px;
+    border : 1px solid #644C79;
 
     i {
       background-color: #644c79;
@@ -48,9 +54,24 @@ $primary-text-color: #003479;
   }
   //checkbox styling
 
-  .chebox-wrap {
+  .checkbox-wrap {
     display: flex;
+    align-items: center;
+    gap: 12px;
+    
+    
   }
+
+  //selector styling
+  .form-selector {
+    width: 275px;
+    height: 50px;
+    border: 1px solid #003479;
+    padding: 10px;
+    font-size: 15px;
+
+  }
+ 
 }
 
 .posts-container {

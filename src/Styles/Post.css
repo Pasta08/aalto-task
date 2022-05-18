@@ -1,3 +1,7 @@
+.loading {
+  color: #003479;
+}
+
 .post-wrap {
   display: -ms-grid;
   display: grid;
