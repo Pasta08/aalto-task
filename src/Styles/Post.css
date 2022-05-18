@@ -1,0 +1,19 @@
+.post-wrap {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  -ms-grid-columns: 0.257fr 0.6fr 0.1fr;
+      grid-template-columns: 0.257fr 0.6fr 0.1fr;
+  height: 70.5px;
+  background-color: white;
+  border-bottom: 2px solid deepskyblue;
+  margin-bottom: 21.5px;
+}
+
+.post-wrap p::first-letter {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=Post.css.map */

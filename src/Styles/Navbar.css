@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  height: 94px;
+  background: #644c79;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar img {
+  position: relative;
+  left: 353px;
+}
+/*# sourceMappingURL=Navbar.css.map */

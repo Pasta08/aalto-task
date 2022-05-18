@@ -1,0 +1,13 @@
+.post-wrap {
+  display: grid;
+  align-items: center;
+  padding: 15px;
+  grid-template-columns: 0.257fr 0.6fr 0.1fr;
+  height: 70.5px;
+  background-color: white;
+  border-bottom: 2px solid deepskyblue;
+  margin-bottom: 21.5px;
+  p::first-letter {
+    text-transform: capitalize;
+  }
+}
